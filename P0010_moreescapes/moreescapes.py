@@ -6,14 +6,14 @@
 after_gym = 'Nandos'
 otherwise = 'grilled cheese, eggs, pasta, something simple'
 
-formatter = %s 
+
 
 print ''' I have a lot of favorite foods \nbut after the gym
 my favourit food is %r ''' % after_gym
 
-print "Otherwise I just eat %s." % otherwise
+print "Otherwise I just eat %r." % otherwise
 
-print "But if I could I would eat", formatter, "all the time." % after_gym
+print "But if I could I would eat %r all the time." % after_gym
 
 
 #END
