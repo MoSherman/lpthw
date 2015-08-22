@@ -9,11 +9,13 @@ otherwise = 'grilled cheese, eggs, pasta, something simple'
 
 
 print ''' I have a lot of favorite foods \nbut after the gym
-my favourit food is %r ''' % after_gym
+my favourit food is %s ''' % after_gym
 
-print "Otherwise I just eat %r." % otherwise
+print "Otherwise I just eat %s." % otherwise
 
-print "But if I could I would eat %r all the time." % after_gym
+print "But if I could I would eat %s all the time." % after_gym
+
+# change %r to %s to get rid of quote marks
 
 
 #END
