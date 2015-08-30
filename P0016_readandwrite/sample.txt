@@ -1,3 +1,3 @@
-This is my sample text.
-It has stuff in it.
-Not much stuff, but it's here. 
+This is the new stuff I am writing into the file.
+Isn't this cool, putting stuff in via my python script.
+I bet it only gets cooler from here on in.
