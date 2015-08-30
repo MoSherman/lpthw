@@ -1,3 +1,3 @@
-This is the new stuff I am writing into the file.
-Isn't this cool, putting stuff in via my python script.
-I bet it only gets cooler from here on in.
+'Trying to make write mode less lines.' 
+ 'This my fourth try.' 
+ 'Crossing my fingers and hoping it works. '
