@@ -7,6 +7,6 @@
 
 print "Halt!", 
 name = raw_input ("Who goes there? ") 
-print "Oh its just %r. You may pass %r." % (name) 
+print "Oh its just %r. You may pass %r." % (name, name) 
 
 #END
