@@ -17,7 +17,7 @@ def print_one(arg1):
     
 # no arguements 
 
-def none():
+def print_none():
     print "I've got nothing."
 
 
