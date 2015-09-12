@@ -9,10 +9,9 @@ script, testfile = argv
 
 print "Does the test file exist? %r" %exists(testfile)
 
-open(testfile)
-text = testfile.read
-
-print "%r" % text 
+text = open(testfile)
+print "The contents of the file:"
+print text.read()
 
 
 print "Keep going?"
