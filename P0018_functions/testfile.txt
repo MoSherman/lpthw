@@ -1,0 +1,2 @@
+The contents of this file should be displayed. 
+If not then something has gone wrong.
