@@ -1,9 +1,9 @@
-This repo contains all my learn python the hardway exercises.
+This repo contains all my learn python the hard way exercises.
 
-This directory contains all learn python the hard wayprojects I have ever worked on starting from Saturday August 15th 12:49:17 BST 2015.
+This directory contains all learn python the hard way projects I have ever worked on starting from Saturday August 15th 12:49:17 BST 2015.
 
 The project numbering will start from 0001. 
 
-The standard naming procedure will be 'P' for Project followed by the project number, an underscore, and finally a descriptive name for the project all lowercase with no spaces. 
+The standard naming procedure will be 'P' for Project followed by the project number, an underscore, and finally a descriptive name for the project all lower-case with no spaces. 
 
 For example: P0001_helloworld
