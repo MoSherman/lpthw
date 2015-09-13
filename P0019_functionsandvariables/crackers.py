@@ -74,9 +74,9 @@ raw_input("Coninue to run 8 of crackers function?\n")
 
 #eighth run
 print "This time I'm going to try and combine a lot of different things."
-a_raw = ("How many more type a crackers do you have? ")
+a_raw = raw_input("How many more type a crackers do you have? ")
 a_var = float(a_raw)
-b_raw = ("How many more type b crackers do you have? ")
+b_raw = raw_input("How many more type b crackers do you have? ")
 b_var = float(b_raw)
 
 crackers (a_input + 20 + a_var, b_input + 20 + b_var)
