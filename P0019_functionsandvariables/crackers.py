@@ -5,9 +5,9 @@
 
 #crackers function
 def crackers(a_crackers, b_crackers):
-    print "There are %d crackers of the type a." % a_crackers
-    print "There are %d crackers of the type b." % b_crackers
-    print "There are %d crackers in total." % (a_crackers + b_crackers)
+    print "There are %r crackers of the type a." % a_crackers
+    print "There are %r crackers of the type b." % b_crackers
+    print "There are %r crackers in total." % (a_crackers + b_crackers)
     print "That's a lot of crackers.\n"
 
 
