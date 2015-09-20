@@ -76,7 +76,7 @@ print "We'd have %d jeans, %d jars, and %d crates." % (beans, jars, crates)
 start_point = start_point / 10
 
 print "We can also do that this way:"
-print "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_point)
+print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
 
 
 sentence = "All good things come to those who wait."
@@ -91,10 +91,10 @@ print_last_word(words)
 print_first_word(sorted_words)
 print_last_word(sorted_words)
 sorted_words = sort_sentence(sentence)
-print_sorted_words
+print sorted_words
 
 print_first_and_last(sentence)
 
-print_first_a_last_sorted(senence)
+print_first_and_last_sorted(sentence)
    
 #END
