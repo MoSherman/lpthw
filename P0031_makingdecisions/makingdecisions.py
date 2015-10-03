@@ -14,23 +14,23 @@ if door == "1":
     
     if bear == "1":
         print "The bear eats your face off. Good job!"
-    elif bear == "2" 
+    elif bear == "2": 
         print "The bear eats your legs off. Good job!"
     else: 
         print "Well, doing %s is probably better. Bear runs away." % bear
 
 elif door == "2":
     print "You stare in the endless abyss at Cthulu's retina."
-    print "1 = Blueberries."
-    print "2 = Yellow jackect clothespins 
-    print "3. Understanding revolvers yelling melodies."
+    print "1 = You see Blueberries."
+    print "2 = You see Yellow jackect clothespins." 
+    print "3 = You see Understanding revolvers yelling melodies."
     
-    insnity = raw_input ("> ") 
+    insanity = raw_input ("> ") 
     
-    if insanity == "1" or "2":
+    if insanity == "1" or insanity == "2":
         print "Your body survives powered by a mind of jello. Good job!"
     else:
-        print "The insanity rots your eyes into a pool of much. Good job!"
+        print "The insanity rots your eyes into a pool of mush. Good job!"
 
 else: 
     print "You stumble arouns and fall on a knife and die. Good Job!"
