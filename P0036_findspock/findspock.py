@@ -8,7 +8,7 @@ from sys import exit
 
 def sick_bay():
     print "You have now entered sickbay, Dr. McCoy is here."
-    print "You can ask him if he knows where Mr. SPock is or you can look around."
+    print "You can ask him if he knows where Mr. Spock is or you can look around."
     
     choice = raw_input("> ")
     
@@ -23,7 +23,7 @@ def sick_bay():
         mess_hall()
     
     else: 
-        print "You can /'ask/' or /'look/'."
+        print "You can 'ask' or 'look'."
 
 def mess_hall():
     print "You have walked in to the mess hall."
@@ -52,7 +52,7 @@ def mess_hall():
         explode()
         
     else:
-        print "You can /'ask/' or /'get food/'."
+        print "You can 'ask' or 'get food'."
         
 def quaters():
     print "You have finally made it to Mr. Spocks quaters."
@@ -68,7 +68,7 @@ def quaters():
         explode()
     
     else:
-        print "Your choices are to /'knock/' or /'open/'."
+        print "Your choices are to 'knock' or 'open'."
 
 def explode():
     print "You failed in your mission to get the code from Mr. Spock."
