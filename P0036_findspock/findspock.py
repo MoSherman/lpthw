@@ -47,7 +47,7 @@ def mess_hall():
         else:
             print "It's a yes or no question."
 
-    elif choice == "get food"
+    elif choice == "get food":
         print "You let your stomach over-rule your good sense." 
         explode()
         
@@ -57,7 +57,7 @@ def mess_hall():
 def quaters():
     print "You have finally made it to Mr. Spocks quaters."
     
-    choice  = raw_input("Do you knock or open the door? ")
+    choice = raw_input("Do you knock or open the door? ")
     
     if choice == "knock":
         print "Mr. Spock opens the door."
