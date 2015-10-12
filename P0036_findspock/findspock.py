@@ -12,18 +12,20 @@ def sick_bay():
     
     choice = raw_input("> ")
     
-    if choice == "ask": 
-        print "You asked Dr. McCoy, but he is a Doctor not a Detetective."
-        print "He throws you out of sickbay."
-        explode()
+    while choice != "ask" or choice != "look":
     
-    elif choice == "look":
-        print "You looked around, but Mr.Spock wasn't there."
-        print "You decide to go look in the mess hall instead."
-        mess_hall()
+        if choice == "ask": 
+            print "You asked Dr. McCoy, but he is a Doctor not a Detetective."
+            print "He throws you out of sickbay."
+            explode()
     
-    else: 
-        print "You can 'ask' or 'look'."
+        elif choice == "look":
+            print "You looked around, but Mr.Spock wasn't there."
+            print "You decide to go look in the mess hall instead."
+            mess_hall()
+    
+        else: 
+            print "You can 'ask' or 'look'."
 
 def mess_hall():
     print "You have walked in to the mess hall."
