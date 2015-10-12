@@ -26,6 +26,7 @@ def sick_bay():
     
         else: 
             print "You can 'ask' or 'look'."
+            choice = raw_input("> ")
 
 def mess_hall():
     print "You have walked in to the mess hall."
