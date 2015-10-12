@@ -63,7 +63,7 @@ def mess_hall():
             print "You can 'ask' or 'get food'."
             choice = raw_input("> ")
         
-def quaters():
+def quarters():
     print "You have finally made it to Mr. Spocks quaters."
     
     choice = raw_input("Do you knock or open the door? ")
