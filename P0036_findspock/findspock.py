@@ -15,11 +15,13 @@ def sick_bay():
     if choice == "ask": 
         print "You asked Dr. McCoy, but he is a Doctor not a Detetective."
         print "He throws you out of sickbay."
-            explode()
+        explode()
+    
     elif choice == "look":
         print "You looked around, but Mr.Spock wasn't there."
         print "You decide to go look in the mess hall instead."
-            mess_hall()
+        mess_hall()
+    
     else: 
         print "You can /'ask/' or /'look/'."
 
@@ -37,10 +39,10 @@ def mess_hall():
         go = raw_input("Do you go to Mr. Spocks quaters? Y/N ")
         
         if go == "yes":
-        quarters()
+            quarters()
         
         elif go == "no":
-        explode()
+            explode()
         
         else:
             print "It's a yes or no question."
@@ -90,10 +92,10 @@ def start():
     choice = raw_input("Where do you look first? ")
     
     if choice == "sick bay":
-    sick_bay()
+        sick_bay()
     
     elif choice == "mess hall":
-    mess_hall()
+        mess_hall()
     
     else:
         print "You couldn't choose where to look."
