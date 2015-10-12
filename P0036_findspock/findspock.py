@@ -35,43 +35,52 @@ def mess_hall():
     
     choice = raw_input("> ")
     
-    if choice == "ask":
-        print "You asked Scotty where Mr. Spock is."
-        print "He tells you Mr. Spock is meditating in his quaters."
+    while choice != "ask" or choice != "get food":
         
-        go = raw_input("Do you go to Mr. Spocks quaters? Y/N ")
+        if choice == "ask":
+            print "You asked Scotty where Mr. Spock is."
+            print "He tells you Mr. Spock is meditating in his quaters."
         
-        if go == "yes":
-            quarters()
+            go = raw_input("Do you go to Mr. Spocks quaters? Y/N ")
+            
+            while go != "yes" or go != "no":
+            
+                if go == "yes":
+                    quarters()
         
-        elif go == "no":
+                elif go == "no":
+                    explode()
+        
+                else:
+                    print "It's a yes or no question."
+                    go = raw_input("Do you go to Mr. Spocks quaters? Y/N ")
+                    
+        elif choice == "get food":
+            print "You let your stomach over-rule your good sense." 
             explode()
         
         else:
-            print "It's a yes or no question."
-
-    elif choice == "get food":
-        print "You let your stomach over-rule your good sense." 
-        explode()
-        
-    else:
-        print "You can 'ask' or 'get food'."
+            print "You can 'ask' or 'get food'."
+            choice = raw_input("> ")
         
 def quaters():
     print "You have finally made it to Mr. Spocks quaters."
     
     choice = raw_input("Do you knock or open the door? ")
     
-    if choice == "knock":
-        print "Mr. Spock opens the door."
-        congrats()
+    while choice != "knock" or choice != "open":
     
-    elif choice == "open":
-        print "Mr. Spock is annoyed by your actions and nerve pinches you."
-        explode()
+        if choice == "knock":
+            print "Mr. Spock opens the door."
+            congrats()
     
-    else:
-        print "Your choices are to 'knock' or 'open'."
+        elif choice == "open":
+            print "Mr. Spock is annoyed by your actions and nerve pinches you."
+            explode()
+    
+        else:
+            print "Your choices are to 'knock' or 'open'."
+            choice = raw_input("Do you knock or open the door? ")
 
 def explode():
     print "You failed in your mission to get the code from Mr. Spock."
