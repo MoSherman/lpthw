@@ -7,7 +7,7 @@ states = {
     'Florida' : 'FL', 
     'California' : 'CA', 
     'New York' : 'NY', 
-    'MIchigan' : 'MI'
+    'Michigan' : 'MI'
 }
 
 #create a basice set of states and some cities in them
@@ -34,11 +34,11 @@ print "Florida has: ", cities[states['Florida']]
 #print every state abbreviation
 print '_' * 10 
 for state, abbrev in states.items():
-    print "%s State is abbreviated %s" (state, abbrev)
+    print "%s State is abbreviated %s" % (state, abbrev)
     
 #print every city in state
 print '_' * 10
-for abbrev, city in cities.item():
+for abbrev, city in cities.items():
     print "%s has the city %s" % (abbrev, city)
 
 #now do both at the same time
@@ -59,18 +59,3 @@ city = cities.get('TX', 'Does not Exist')
 print "The city for the state 'TX' is: %s" % city 
 
 #END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
