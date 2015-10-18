@@ -12,17 +12,24 @@ class Identify(object):
         for line in self.person:
             print line
 
-moriah = Identify(['Moriah', 27])
 
-sarah = Identify(['Sarah', 28])
+name_1 = 'Moriah'
+age_1 = 27
+
+name_2 = 'Sarah'
+age_2 = 28
 
 
-moriah.person_id()
+person_1 = Identify([name_1 , age_1])
+
+person_2 = Identify([name_2 , age_2])
+
+
+person_1.person_id()
 
 print ' ' * 10
 print ' ' * 10
 
-sarah.person_id()
+person_2.person_id()
 
 #END
-        
