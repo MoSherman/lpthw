@@ -10,9 +10,21 @@ class Journey(object):
     #instating class with an object of position
     def __init__(self, side):
         self.side = side
-    
+
+   
     #whatever choice is made for var1 will be the instance
     def choice_1(self):
+    
+        def light_side():
+        
+            print "You choose the light side, you won the battle!"
+            exit(0)
+     
+        def dark_side():
+        
+            print "You choose the dark side, you lost the battle!"
+            print "But don't worry, you will probably come back in the next movie!"
+            exit(0)
         
         if self.side == 'light':
             print "You went towards the light."
@@ -25,17 +37,7 @@ class Journey(object):
         else:
             print "You couldn't choose a side and you died in the battle."
             exit(0)
-     
-     def light_side():
         
-        print "You choose the light side, you won the battle!"
-        exit(0)
-     
-     def dark_side():
-        
-        print "You choose the dark side, you lost the battle!"
-        print "But don't worry, you will probably come back in the next movie!"
-        exit(0)
 
 var1 = raw_input("What side will you choose for the battle? Light or Dark?" )
 
