@@ -15,7 +15,7 @@ class Stand_Up(object):
     def stand_or_sit(self):
         
         if self.position == 'standing':
-            print "Good on you for standing up. 
+            print "Good on you for standing up." 
             exit(0)
         
         elif self.position =='sitting':
@@ -23,7 +23,7 @@ class Stand_Up(object):
             what = raw_input("Are you standing yet? ")
             
             if what == 'yes':
-                print "Good on you for standing up. 
+                print "Good on you for standing up." 
                 exit(0)
             elif what == 'no':
                 print "Fine see if I care."
