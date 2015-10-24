@@ -1,0 +1,48 @@
+These are my game notes. 
+
+Game Title: Home for the Holidays. 
+
+Game Story: Claire comes from an interesting family, all of whom are assassins. Her family unfortunately often try to show affection for each other by almost killing each other. What fun. 
+
+Claire's mum greets her at the door with a plate of cookies. If Claire eats them she is drugged and wakes up in a dungeon cell which she has to escape from by finding the key which is hidden in the cell in one of three baskets two of which contain snakes, if she opens a basket with a snake in she nearly dies and spends Christmas in the hospital. If she finds the key or she does not eat the cookies she can then make her way up to her room upstairs. 
+
+At the bottom of the stairs Claire looks up and see's her dad at the top. He informs her that he has booby trapped the stairs and one of them is rigged to explode if she steps on it. If Claire chooses to walk up the stairs she had to decide which stair to skip out of 15 possible stairs if she skips the wrong one she trips the explosive and has to spend Christmas in the he hospital. If she skips the right one or chooses to shimmy up the banister instead, her dad gives her a high five and Claire can finally make her way to her room. 
+
+Once Claire gets to her door she see's her brother has left a sign on her door that says welcome home. If Claire opens the door to her room she finds her brother has filled the room with poisonous snakes and is bitten by one immediately. Her brother is standing in the room telling her he has the antidote if she chooses to take the antidote from her brother she is poisoned as well and end up in the hospital for Christmas. If she chooses to run instead and she will find the antidote in her brothers room or if she chooses to listen at the door instead of opening she hears the snake in there and gasses her brother and the snakes instead. 
+
+If she manages to either get the antidote or gas her brother and the snakes then the game ends with the whole family tensely eating around the Christmas table wondering which food contains the poison this year and where their mum has hidden the antidote. 
+
+If Claire ends up in the hospital over Christmas then the police begin to suspect her family of weird and end up arresting the whole lot of them and Claire for being assassins. 
+
+
+Classes and Functions: 
+
+* Map
+    -next_scene
+    -opening_scene
+* Engine 
+    -play
+* Scenes
+    -enter
+    *Mum
+        -cookies
+    *Dungeon
+        -baskets
+    *Hospital
+        --exit
+    *Dad
+        -stairs
+    *Explosion
+        -skip
+    *Brother
+        -door
+    *Snake Pit
+        -antidote
+    *Christmas Dinner
+        --exit
+
+
+    
+    
+  
+
