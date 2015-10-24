@@ -91,28 +91,26 @@ class Dungeon(Scene):
         """
 
         numbers = { 
-                    0 : 'left', 
-                    1 : 'center', 
-                    2 : 'right'
-            }
+                    'left' : 1, 
+                    'center' : 2, 
+                    'right' : 3,
+        }
         
-        lock_pick = randint(0,2)
+        lock_pick = randint(1,4)
         
         choice = numbers.get(raw_input("Which basket will you choose? \n > "))
         
         if choice == lock_pick:
             print "Got lock pick"
             
-            exit(1)
-        
-        elif int(choice):
-            except ValueError:
-                print "Not an integer! Fix Code!"
-        
+            return 'Dad'
+
         else:
             print "Picked a snake"
+            print "Lucky for you it wasn't venomous."
+            print "Mum must of known you would need extra help."
             
-            exit(1)
+            return 'Dad'
         
 class Mum(Scene):
 
